@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function Room() {
-  const [isLit, setLit] = useState(false);
+  const [isLit, setLit] = useState(true);
   const [temp, setTemp] = useState(22);
   const mode = isLit ? "lit" : "dark";
   return (
